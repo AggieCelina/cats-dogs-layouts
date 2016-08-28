@@ -5,25 +5,31 @@
     android:layout_height="match_parent"
 
     tools:context="aggiecelina.cats_dogs_layouts.MainActivity">
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentEnd="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center_vertical"
-        android:scaleType="centerCrop"
-        android:src="@drawable/android" />
-
     <TextView
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/imageView"
 
-        android:text="some text under the image"
-        android:textSize="20sp" />
+        android:text="Save progress? "
+        android:textSize="40sp"
+        android:textColor="@color/Red"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:textSize="60sp"
+        android:background="@color/Grey"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nope"
+        android:textSize="60sp"
+        android:background="@color/Grey"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
+
 
