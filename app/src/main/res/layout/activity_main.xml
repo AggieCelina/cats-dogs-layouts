@@ -7,8 +7,8 @@
     tools:context="aggiecelina.cats_dogs_layouts.MainActivity">
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:scaleType="fitStart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/android" />
 </LinearLayout>
