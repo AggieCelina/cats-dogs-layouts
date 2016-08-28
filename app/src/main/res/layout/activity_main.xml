@@ -8,6 +8,7 @@
 
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentEnd="true"
@@ -15,4 +16,14 @@
         android:layout_gravity="center_vertical"
         android:scaleType="centerCrop"
         android:src="@drawable/android" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView"
+
+        android:text="some text under the image"
+        android:textSize="20sp" />
 </RelativeLayout>
+
