@@ -8,10 +8,19 @@
 
 
     <ImageView
+        android:id="@+id/android_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:scaleType="centerCrop"
         android:src="@drawable/android" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/android_image"
+        android:text="some text under the image"
+        android:textSize="20sp" />
 </RelativeLayout>
