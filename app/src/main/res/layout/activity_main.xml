@@ -6,21 +6,46 @@
 
     tools:context="aggiecelina.cats_dogs_layouts.MainActivity">
 
-
-    <ImageView
-        android:id="@+id/android_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/android" />
-
     <TextView
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Save progress? "
+        android:textColor="@color/red"
+        android:textSize="40sp" />
+
+<!-- Buttons modified with http://angrytools.com/android/button/ -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/android_image"
-        android:text="some text under the image"
-        android:textSize="20sp" />
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Yes"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Nope"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp" />
+
+
 </RelativeLayout>
+
+
