@@ -3,70 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="aggiecelina.cats_dogs_layouts.MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/buttony"
-        android:layout_alignParentStart="true"
-        android:text="What do you prefer?"
-        android:textAlignment="center"
-        android:textSize="40sp" />
 
-    <LinearLayout
-        android:id="@+id/obrazki"
-        android:layout_width="match_parent"
-        android:layout_height="489dp"
-        android:layout_above="@id/buttony"
-        android:layout_alignParentStart="true">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/dog" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/cat" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/buttony"
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="@dimen/activity_vertical_margin"
-            android:layout_weight="1"
-            android:background="@color/Grey"
-            android:text="Yes"
-            android:textAlignment="center"
-            android:textSize="40sp" />
-
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="@dimen/activity_vertical_margin"
-            android:layout_weight="1"
-            android:background="@color/Grey"
-            android:text="No"
-            android:textAlignment="center"
-            android:textSize="40sp" />
-    </LinearLayout>
-
-
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android" />
 </RelativeLayout>
-
-
-
-
