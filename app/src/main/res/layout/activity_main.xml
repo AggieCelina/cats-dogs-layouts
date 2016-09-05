@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="aggiecelina.cats_dogs_layouts.MainActivity">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,37 +13,28 @@
         android:text="Save progress? "
         android:textColor="@color/red"
         android:textSize="40sp" />
-
-<!-- Buttons modified with http://angrytools.com/android/button/ -->
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:background="@drawable/buttonshape"
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:text="Yes"
-        android:textColor="#FFFFFF"
-        android:textSize="60sp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:background="@drawable/buttonshape"
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:text="Nope"
-        android:textColor="#FFFFFF"
-        android:textSize="60sp" />
-
-
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:background="@drawable/buttonshape"
+            android:text="Yes"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:background="@drawable/buttonshape"
+            android:text="No"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            />
+    </LinearLayout>
 </RelativeLayout>
-
 
